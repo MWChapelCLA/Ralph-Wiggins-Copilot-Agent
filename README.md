@@ -1,4 +1,4 @@
-# Ralph Wiggins Copilot Agent for VS Code
+# Ralph Wiggums Copilot Agent for VS Code
 
 A VS Code Copilot Chat participant that implements the **Ralph Wiggum iterative development technique** - continuous AI loops for self-referential improvement.
 
