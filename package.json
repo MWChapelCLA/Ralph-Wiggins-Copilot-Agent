@@ -1,5 +1,5 @@
 {
-  "name": "ralph-wiggins-copilot-agent",
+  "name": "ralph-wiggums-copilot-agent",
   "displayName": "Ralph Wiggums Copilot",
   "description": "VS Code Copilot Chat Agent implementing the Ralph Wiggum iterative development technique",
   "version": "0.1.0",
@@ -20,7 +20,7 @@
   "contributes": {
     "chatParticipants": [
       {
-        "id": "ralph-wiggins-copilot-agent.ralph",
+        "id": "ralph-wiggums-copilot-agent.ralph",
         "name": "ralph",
         "description": "Ralph Wiggum iterative development agent - continuous AI loops for self-referential improvement",
         "isSticky": true,
