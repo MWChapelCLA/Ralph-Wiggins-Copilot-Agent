@@ -22,10 +22,10 @@ The technique is described as "deterministically bad in an undeterministic world
 ### Option 1: Install Pre-packaged Extension (Recommended)
 
 1. Download or clone this repository
-2. Navigate to the `ralph-wiggins-copilot-agent` folder
+2. Navigate to the `ralph-wiggums-copilot-agent` folder
 3. Install the extension:
    ```bash
-   code --install-extension ralph-wiggins-copilot-agent-0.1.0.vsix
+   code --install-extension ralph-wiggums-copilot-agent-0.1.0.vsix
    ```
 4. Reload VS Code
 5. Open Copilot Chat and type `@ralph`
@@ -35,7 +35,7 @@ The technique is described as "deterministically bad in an undeterministic world
 1. Clone or download this extension
 2. Navigate to the folder:
    ```bash
-   cd ralph-wiggins-copilot-agent
+   cd ralph-wiggums-copilot-agent
    ```
 3. Install dependencies:
    ```bash
@@ -52,7 +52,7 @@ The technique is described as "deterministically bad in an undeterministic world
    ```
 6. Install the generated `.vsix` file:
    ```bash
-   code --install-extension ralph-wiggins-copilot-agent-0.1.0.vsix
+   code --install-extension ralph-wiggums-copilot-agent-0.1.0.vsix
    ```
 7. Reload VS Code
 8. Open Copilot Chat and type `@ralph`
