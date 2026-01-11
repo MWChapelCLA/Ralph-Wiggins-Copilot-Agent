@@ -1,0 +1,17 @@
+{
+  "name": "Ralph Wiggums Copilot Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "npm install",
+  "remoteUser": "vscode"
+}

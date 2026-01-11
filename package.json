@@ -1,0 +1,64 @@
+{
+  "name": "ralph-wiggins-copilot-agent",
+  "displayName": "Ralph Wiggums Copilot",
+  "description": "VS Code Copilot Chat Agent implementing the Ralph Wiggum iterative development technique",
+  "version": "0.1.0",
+  "author": "Michael Chapel",
+  "publisher": "mwchapelcla",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MWChapelCLA/copilot_plugins.git"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Chat"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "ralph-wiggins-copilot-agent.ralph",
+        "name": "ralph",
+        "description": "Ralph Wiggum iterative development agent - continuous AI loops for self-referential improvement",
+        "isSticky": true,
+        "commands": [
+          {
+            "name": "loop",
+            "description": "Start a Ralph loop with a prompt"
+          },
+          {
+            "name": "cancel",
+            "description": "Cancel the active Ralph loop"
+          },
+          {
+            "name": "status",
+            "description": "Show current Ralph loop status"
+          },
+          {
+            "name": "help",
+            "description": "Show Ralph Wiggum technique documentation"
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/vscode": "^1.90.0",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "eslint": "^8.x",
+    "typescript": "^5.x"
+  }
+}
